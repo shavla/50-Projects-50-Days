@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-color: #f0f0f0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2em;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
+.content div {
+  max-width: 600px;
+  width: 90%;
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+  padding: 30px 90px 30px 30px;
+}
+
+h1 {
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 1.2em;
+  display: none;
+  margin-top: 1.3em;
+}
+
+.active {
+  background-color: #fff !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.active p {
+  display: flex;
+}
+
+.active .close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  background-color: rgba(2, 2, 2, 0);
+  outline: none;
+  color: #000 !important;
+}
+
+.close {
+  display: none;
+}
+
+button {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border-radius: 50%;
+  background-color: #9fa4a8;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+i {
+  width: 20px;
+  height: 20px;
+  font-size: 18px !important;
+}
