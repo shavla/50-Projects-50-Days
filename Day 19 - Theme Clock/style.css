@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+html {
+  transition: all 0.5s ease-in;
+  font-family: "Heebo", sans-serif;
+}
+html.dark {
+  --primary-color: #fff;
+  --secondary-color: #333;
+}
+html.dark {
+  background-color: #111;
+  color: var(--primary-color);
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.toggle {
+  width: 100px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 4px;
+  padding: 8px 12px;
+  outline: none;
+  border: none;
+}
+.clock {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.date div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date p {
+  margin: 0 5px;
+  color: #aaa;
+  font-size: 14px;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+}
+.cur-date {
+  min-width: 20px;
+  min-height: 20px;
+  text-align: center;
+  background: var(--primary-color);
+  border-radius: 50%;
+  color: var(--secondary-color);
+}
+.cur-time {
+  font-weight: 100;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+.point {
+  width: 8px;
+  height: 8px;
+  background-color: var(--primary-color);
+  border: 2px solid #e74c3c;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.second,
+.minute,
+.hour {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  transform-origin: center left;
+  height: 4px;
+  background-color: var(--primary-color);
+}
+.second {
+  width: 120px;
+  background-color: #e74c3c;
+}
+.minute {
+  width: 100px;
+}
+.hour {
+  width: 60px;
+}
