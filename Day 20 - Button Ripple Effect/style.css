@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+button {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  background-color: purple;
+  color: #fff;
+  border: 1px purple solid;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 30px;
+  margin: 10px 0;
+}
+.circle {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: anim 1s ease-out;
+}
+@keyframes anim {
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
