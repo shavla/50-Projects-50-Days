@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.wrapper {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.text div {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #fff;
+}
+.text {
+  width: 35%;
+  transition: transform 0.5s ease-in-out;
+}
+.images {
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+.images div {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.flower-text {
+  background-color: #fd3555;
+}
+.sky-text {
+  background-color: #2a86ba;
+}
+.castle-text {
+  background-color: #252e33;
+}
+.eagle-text {
+  background-color: #ffb866;
+}
+.flower-img {
+  background-image: url("./images/4.jpg");
+}
+.eagle-img {
+  background-image: url("./images/1.jpg");
+}
+.castle-img {
+  background-image: url("./images/2.jpg");
+}
+.sky-img {
+  background-image: url("./images/3.jpg");
+}
+.btns {
+  position: absolute;
+  left: calc(35% - 50px);
+  top: 50%;
+}
+.btns button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #808080;
+}
+.btn-up {
+  position: absolute;
+  left: 50px;
+  top: -33px;
+  border-radius: 0px 10px 10px 0px;
+}
+.btn-down {
+  position: absolute;
+  top: 17px;
+  border-radius: 10px 0px 0px 10px;
+}
+.btns button:hover {
+  color: #000;
+}
