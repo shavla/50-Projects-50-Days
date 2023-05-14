@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #7bdaf3;
+}
+.add {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #9ec862;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  outline: none;
+}
+.wrapper {
+  margin: 60px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.element {
+  width: 400px;
+  margin: 20px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+}
+.title {
+  background-color: #9ec862;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.title button {
+  margin: 0px 10px;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 24px;
+  outline: none;
+}
+.edit {
+  padding-top: 3px;
+}
+textarea {
+  padding: 15px;
+  width: 100%;
+  outline: none;
+  resize: none;
+  height: 300px;
+  font-size: 20px;
+  border: none;
+}
+.active {
+  resize: both;
+  height: 330px;
+}
