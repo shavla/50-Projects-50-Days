@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  overflow: hidden;
+  user-select: none;
+}
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+h1 {
+  font-size: 16px;
+}
+p {
+  font-size: 13px;
+  margin-top: 5px;
+}
+.heart {
+  background-color: red;
+  display: inline-block;
+  height: 20px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 20px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  width: 20px;
+}
+
+.heart:before {
+  top: -10px;
+  left: 0;
+}
+
+.heart:after {
+  left: 10px;
+  top: 0;
+}
+.pic {
+  height: 440px;
+  width: 300px;
+  background: url(https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80)
+    no-repeat center center/cover;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+  max-width: 100%;
+  position: relative;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.new-heart {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.animate {
+  animation: 1.5s anim;
+  opacity: 1;
+}
+@keyframes anim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 5;
+  }
+}
