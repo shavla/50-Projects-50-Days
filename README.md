@@ -1,6 +1,6 @@
 # 50-Projects-50-Days
 This is the main repository for all of the projects of the journey
-| Left-aligned | Center-aligned | Right-aligned |
+| # | Project | Live Demo |
 | :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| 1   | git status     | git status    |
+|2    | git diff       | git diff      |
