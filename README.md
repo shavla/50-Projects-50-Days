@@ -2,9 +2,9 @@
 This is the main repository for all of the projects of the journey
 | # | Project | Live Demo |
 | :---         |     :---      |          ---: |
-| 1 | Expanding Cards | [Live Demo](https://shavla.github.io/Film-Flowers-with-D3/) |
-| 2 | Progress Steps | [Live Demo] |
-| 3 | Rotating Navigation Animation | [Live Demo] |
+| 1 | Expanding Cards | [Live Demo](https://shavla.github.io/50-Projects-50-Days/Day%201%20-%20Expanding%20Cards/) |
+| 2 | Progress Steps | [Live Demo](https://shavla.github.io/50-Projects-50-Days/Day%202%20-%20Progress%20Steps/) |
+| 3 | Rotating Navigation Animation | [Live Demo](https://shavla.github.io/50-Projects-50-Days/Day%203%20-%20Rotating%20Navigation%20Animation/) |
 | 4 | Hidden Search | [Live Demo] |
 | 5 | Blurry Loading | [Live Demo] |
 | 6 | Scroll Animation | [Live Demo] |
