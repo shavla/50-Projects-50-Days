@@ -2,7 +2,7 @@
 This is the main repository for all of the projects of the journey
 | # | Project | Live Demo |
 | :---         |     :---      |          ---: |
-| 1 | Expanding Cards | [Live Demo] |
+| 1 | Expanding Cards | [Live Demo](https://shavla.github.io/Film-Flowers-with-D3/) |
 | 2 | Progress Steps | [Live Demo] |
 | 3 | Rotating Navigation Animation | [Live Demo] |
 | 4 | Hidden Search | [Live Demo] |
